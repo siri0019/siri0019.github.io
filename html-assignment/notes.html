@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Page</title>
+</head>
+<body>
+<header>
+    <h1>Notes Page</h1>
+</header>
+
+    <main>
+        <article><h2> Please Notify Me</h2></article>
+        <p><strong>Fill out this form to provide a brief description of yourself.</strong></p>
+        
+        <article>
+            <h3>Your description</h3>
+            <form action="#" method="get">
+                <div>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fname">
+                </div>
+
+                <div>
+                    <label for="dateofbirth"> Date of Birth</label>
+                    <input type="date" id="dateofbirth" name="dbirth">
+                </div>
+
+                <div>
+                    <p>What province are you from?</p>
+                    <label for="ontario">Ontario</label>
+                    <input type="radio" id="ontario" name="prov" value="ont">
+
+                    <label for="quebec">Quebec</label>
+                    <input type="radio" id="quebec" name="prov" value="que">
+
+                    <label for="manitoba">Manitoba</label>
+                    <input type="radio" id="manitoba" name="prov" value="man">
+
+                    <label for="britishcolumbia">British Columbia</label>
+                    <input type="radio" id="britishcolumbia" name="prov" value="brc">
+
+                    <label for="alberta">Alberta</label>
+                    <input type="radio" id="alberta" name="prov" value="alb">
+                </div><br>
+
+                <div>
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" name="email">
+                </div> <br>
+
+                <div>
+                    <label for="programs">Programs</label>
+                    <select id="programs" name="prog">
+                        <option value="imd">Interactive Media Disign</option>
+                        <option value="ani">Animation</option>
+                        <option value="cp">Computer Programming</option>
+                        <option value="df">Design Foundation</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="certificate">Certificate Degree</label>
+                    <input type="checkbox" id="certificate" name="ct">
+
+                    <label for="diploma">Diploma Degree</label>
+                    <input type="checkbox" id="diploma" name="dp">
+
+                    <label for="bachelor">Bachelor Degree</label>
+                    <input type="checkbox" id="bachelor" name="bc">
+                </div> <br>
+
+                <div>
+                    <label for="descript">A Brief Descriptions</label>
+                    <textarea id="descript" name="descript"></textarea>
+                </div><br>
+
+                <button type="submit">Send</button>
+            
+            </form>
+        </article>
+
+    </main>
+    <footer>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to Home Page</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+    
+</body>
+</html>
