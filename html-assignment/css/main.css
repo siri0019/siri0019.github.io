@@ -17,7 +17,7 @@ img {
     height:auto
 }
 
-div #my-image {
+#my-image {
     box-shadow: 0px 0px 2px 1px black;
 }
 
@@ -28,7 +28,7 @@ ol li {
     list-style-type: square;
 }
 
-div :nth-child(odd) {
+div ol :nth-child(odd) {
    background: rgb(224, 246, 232); 
 }
 
