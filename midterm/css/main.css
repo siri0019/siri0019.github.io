@@ -12,7 +12,7 @@ body {
 
 header h1 {
     padding: 100px;
-    font-size: 3rem;
+    font-size: 300%;
     text-align:center;
     color: white;
     background-image: url("../images/lone-starfish-wide.jpg");
@@ -25,13 +25,30 @@ header h1 {
 
 nav ul li {
     display: inline-block;
-    background-color: aliceblue;
     width: 230px;;
-    height: 40px;
+    height: 30px;
     text-align: center;
+    font-weight: bolder;
+}
+
+a:link , a:visited {
     color: black;
-    font-weight: bold;
-  
-    
+    text-decoration: none;
+}
+
+h2 , h3 {
+    font-size: 1.5rem;
+}
+
+#lonestarfish {
+    width: 250px; 
+    height: auto;
+    float: left;
+    margin: 5px;
+}
+
+p {
+    text-align: justify;
+    font-size: 80%;
 
 }
