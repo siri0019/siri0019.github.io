@@ -1,25 +1,27 @@
 body {
     background-color: #aad4cf;
     font-family:Arial, Helvetica, sans-serif;
-    line-height: 1.5;
+    line-height:170%;
 }
+
 .wrapper {
-    background-color: aliceblue;
+    background-color: rgb(187, 229, 232);
     width: 750px;
     margin: auto;
+   
 
 }
 
 header h1 {
     padding: 100px;
-    font-size: 300%;
+    font-size: 250%;
     text-align:center;
     color: white;
     background-image: url("../images/lone-starfish-wide.jpg");
     background-repeat: no-repeat;
     background-position:top;
-    background-size:contain;
-    margin: 0 auto;
+    background-size:cover;
+    margin: auto;  
 }
 
 
@@ -28,27 +30,81 @@ nav ul li {
     width: 230px;;
     height: 30px;
     text-align: center;
-    font-weight: bolder;
-}
+    font-weight: normal;
+    font-size: 140%;
+    border-left: 1px solid black;
+}  
 
 a:link , a:visited {
     color: black;
     text-decoration: none;
 }
 
+a:hover , a:active {
+    font-weight: bolder;
+}
 h2 , h3 {
-    font-size: 1.5rem;
+    padding: 2%;
+    font-size: 200%;
 }
 
 #lonestarfish {
     width: 250px; 
     height: auto;
     float: left;
-    margin: 5px;
+    margin: 15px;
 }
 
 p {
+    padding: 2%;
     text-align: justify;
     font-size: 80%;
+}
 
+.fact ul li {
+    text-align: left;
+    font-size: 80%;
+}
+
+
+.box {
+    width:auto;
+    height: 370px;
+    border: 1px solid black;
+    margin: 1%;
+    padding: 10px;
+}
+
+.form input {
+    padding: 3px;
+    box-shadow: none;
+    width: 700px;
+}
+
+textarea {
+    padding: 3px;
+    box-shadow: none;
+    width: 700px;
+    height: 50px;
+}
+
+.form label {
+    display: block;
+}
+
+/* button style transparent and border black*/
+button {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    padding: 14px; 
+}
+
+footer p {
+    text-align:right;
+    padding: 3px;
+    border: 2px;
+    margin: 2px;
+    
+  
 }
