@@ -2,7 +2,9 @@
 body {
     background-color: #aad4cf;
     font-family:Arial, Helvetica, sans-serif;
-    line-height:170%;
+    line-height: 1.5;
+    font-size: 20px;
+    
 }
 
 /* wrapper sets bgcolor, width and center*/
@@ -12,26 +14,33 @@ body {
     margin: auto;
 }
 
-/* header sets image tag, title on the image and in the center*/
-header h1 {
-    padding: 120px;
-    font-size: 250%;
-    text-align:center;
-    color: white;
+/* header sets image tag, position, title on the image and in the center*/
+.header-image {
     background-image: url("../images/lone-starfish-wide.jpg");
     background-repeat: no-repeat;
-    background-position:top;
+    background-position:center;
     background-size:cover;
+    position: relative;
     margin: auto;  
+    padding: 60px;
+}
+
+.header-text {
+    font-size: 130%;
+    text-align:center;
+    position: relative;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, 80%);
 }
 
 /*nav sets display, width, font-size and center*/
 nav a {
     display: inline-block;
-    width: 240px;
+    width: 235px;
     text-align: center;
     font-weight: normal;
-    font-size: 125%;
+    font-size: 110%;
 }  
 
 /*Setting any <a> to change color and text-decoration*/
@@ -40,71 +49,85 @@ a:link , a:visited {
     text-decoration: none;
 }
 
-/*Hover sets font-weight*/
-a:hover , a:active {
-    font-weight: bolder;
-}
-
-/*H2 and H3 set font size and padding*/
-h2 , h3 {
-    padding: 2%;
-    font-size: 200%;
+/*H2 sets font size and padding*/
+h2 {
+    padding-left: 2%;
+    font-size: 160%;
+    margin-bottom: 0%;
 }
 
 /* Set image in the left size and text wrapping around image */
-#lonestarfish {
+.columns #lonestarfish {
     width: 250px; 
     height: auto;
     float: left;
     margin: 15px;
 }
 
-p {
+.columns p {
     padding: 2%;
     text-align: justify;
-    font-size: 80%;
+    font-size: 70%;
+    margin-top: 0%;
+}
+
+/*H3 sets font size and padding*/
+h3 {
+    padding-left: 2%;
+    font-size: 130%;  
+    margin-bottom: auto;
 }
 
 /* fact sets text on left and font-size*/
 .fact ul li {
     text-align: left;
-    font-size: 80%;
+    font-size: 70%;
+    margin-left: 0;
 }
 
 /*set box contains form inside with widght,height,border*/
 .box {
     width:auto;
-    height: 370px;
-    border: 1px solid black;
-    margin: 1%;
+    height: 390px;
+    border: 1.5px solid black;
+    margin: 2%;
     padding: 10px;
+    font-size: 80%;    
+}
+
+/*Set box is under the text*/
+.form label {
+    display: block;
+    line-height: 2.5;
+    font-weight: bold;
 }
 
 /*Expanding the size of text box*/
 .form input {
     padding: 3px;
     box-shadow: none;
-    width: 700px;
+    width: 680px;
 }
 
 textarea {
     padding: 3px;
     box-shadow: none;
-    width: 700px;
-    height: 50px;
+    width: 680px;
+    height: 60px;
+}
+/*H4 sets font size and margin*/
+.stage h4 {
+    font-size: 100%;
+    margin-bottom: 2%;
 }
 
-/*Set box is under the text*/
-.form label {
-    display: block;
-}
-
-/* button style transparent and border black*/
+/* button style is transparent with a black border.*/
 button {
     background-color: transparent;
     color: black;
-    border: 2px solid black;
+    border: 1.5px solid black;
     padding: 14px; 
+    
 }
 
 /*Footer sets text-align on the right*/
@@ -113,6 +136,7 @@ footer p {
     padding: 3px;
     border: 2px;
     margin: 2px;
+    font-size: 70%;
     
   
 }
