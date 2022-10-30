@@ -72,7 +72,7 @@ h2 {
 .columns p {
     padding: 2%;
     text-align: justify;
-    font-size: 70%;
+    font-size: 65%;
     margin-top: 0%;
 }
 
@@ -86,7 +86,7 @@ h3 {
 /* fact sets text on left and font-size*/
 .fact ul li {
     text-align: left;
-    font-size: 70%;
+    font-size: 65%;
     margin-left: 0;
     line-height: 1.2;
 }
@@ -142,5 +142,5 @@ footer p {
     text-align:right;
     padding-bottom: 2%;
     margin: 2%;
-    font-size: 70%;
+    font-size: 65%;
 }
