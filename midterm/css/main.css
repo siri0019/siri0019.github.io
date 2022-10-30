@@ -14,7 +14,7 @@ body {
 /* wrapper sets bgcolor, width and center*/
 .wrapper {
     background-color: rgb(187, 229, 232);
-    max-width: 850px;
+    max-width: 800px;
     margin: 0 auto;    
 }
 
@@ -41,7 +41,7 @@ body {
 /*nav sets display, width, font-size and center*/
 nav a {
     display: inline-block;
-    width: 32%;
+    width: 31.5%;
     text-align: center;
     font-weight: normal;
     font-size: 110%;
