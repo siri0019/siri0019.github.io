@@ -14,10 +14,9 @@ body {
 /* wrapper sets bgcolor, width and center*/
 .wrapper {
     background-color: rgb(187, 229, 232);
-    max-width: 900px;
+    max-width: 850px;
     margin: 0 auto;    
 }
-
 
 /* header sets image tag, position, title on the image and in the center*/
 .header-image {
@@ -42,7 +41,7 @@ body {
 /*nav sets display, width, font-size and center*/
 nav a {
     display: inline-block;
-    width: 31.5%;
+    width: 32%;
     text-align: center;
     font-weight: normal;
     font-size: 110%;
