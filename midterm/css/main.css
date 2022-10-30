@@ -62,7 +62,7 @@ h2 {
 
 /* Set image in the left size and text wrapping around image */
 .columns #lonestarfish {
-    width: 240px; 
+    width: 220px; 
     height: auto;
     float: left;
     margin: 15px;
