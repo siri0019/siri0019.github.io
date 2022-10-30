@@ -14,7 +14,7 @@ body {
 /* wrapper sets bgcolor, width and center*/
 .wrapper {
     background-color: rgb(187, 229, 232);
-    max-width: 780px;
+    max-width: 900px;
     margin: 0 auto;    
 }
 
@@ -42,7 +42,7 @@ body {
 /*nav sets display, width, font-size and center*/
 nav a {
     display: inline-block;
-    width: 31%;
+    width: 31.5%;
     text-align: center;
     font-weight: normal;
     font-size: 110%;
@@ -57,13 +57,13 @@ a:link , a:visited {
 /*H2 sets font size and padding*/
 h2 {
     padding-left: 2%;
-    font-size: 140%;
+    font-size: 150%;
     margin-bottom: 0%;
 }
 
 /* Set image in the left size and text wrapping around image */
 .columns #lonestarfish {
-    width: 200px; 
+    width: 230px; 
     height: auto;
     float: left;
     margin: 15px;
@@ -73,21 +73,21 @@ h2 {
 .columns p {
     padding: 2%;
     text-align: justify;
-    font-size: 60%;
+    font-size: 65%;
     margin-top: 0%;
 }
 
 /*H3 sets font size and padding*/
 h3 {
     padding-left: 2%;
-    font-size: 120%;  
+    font-size: 130%;  
     margin-bottom: auto;
 }
 
 /* fact sets text on left and font-size*/
 .fact ul li {
     text-align: left;
-    font-size: 60%;
+    font-size: 65%;
     margin-left: 0;
     line-height: 1.1;
 }
@@ -143,5 +143,5 @@ footer p {
     text-align:right;
     padding-bottom: 2%;
     margin: 2%;
-    font-size: 60%;
+    font-size: 65%;
 }
