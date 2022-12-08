@@ -630,7 +630,7 @@ footer {
 
     /* Adjust font size of Heading 2 and paragraph of about Us */
     .box2 .text-aboutus h2 {
-        font-size: 200%;
+        font-size: 220%;
     }
 
     .box2 .text-aboutus p {
@@ -642,13 +642,13 @@ footer {
 
     /* Reducing font size to appropriate with desktop size  */
     #services {
-        padding-top: 10px;
+        padding-top: 2px;
         padding-left: 40px;
     }
 
     /* Adjust font size of Heading 2 and paragraph of oue services */
     .bg-ourservices .service h2 {
-        font-size: 200%;
+        font-size: 220%;
 
     }
 
@@ -657,7 +657,7 @@ footer {
     }
 
     .bg-ourservices .service p {
-        font-size: 70%;
+        font-size: 80%;
     }
 
     /* Changing button style all of our service */
@@ -748,18 +748,18 @@ footer {
 
     /* Adjusted image background and font size of our vision smaller than mobile size */
     .container-vision img {
-        height: 200px;
+        height: 210px;
         width: 100%;
     }
 
     .container-vision .text-vision h3 {
-        font-size: 100%;
-        top: 10%;
+        font-size: 130%;
+        top: 8%;
         left: 50%;
     }
 
     .container-vision .text-vision p {
-        font-size: 70%;
+        font-size: 80%;
         top: 25%;
         width: 80%;
     }
@@ -783,7 +783,7 @@ footer {
     }
 
     .bg-team h2 {
-        font-size: 200%;
+        font-size: 220%;
     }
 
     .bg-team h3 {
@@ -795,7 +795,7 @@ footer {
     }
 
     .bg-team p {
-        font-size: 70%;
+        font-size: 80%;
     }
 
     /* Adjust image size of JohnDoe and Rob Rite */
@@ -835,7 +835,7 @@ footer {
 
         display: grid;
         grid-template-columns: auto auto;
-        gap: 20px;
+        grid-gap: 20px;
         width: 1020px;
     }
 
@@ -861,7 +861,7 @@ footer {
 
     /* Changing font-size for contact us*/
     .bg-contact h2 {
-        font-size: 200%;
+        font-size: 220%;
     }
 
     .bg-contact h3 {
@@ -869,7 +869,7 @@ footer {
     }
 
     .bg-contact p {
-        font-size: 70%;
+        font-size: 80%;
     }
 
     /* Changing table size for desktop screen */
@@ -912,7 +912,7 @@ footer {
     }
 
     .bg-footer p {
-        font-size: 70%;
+        font-size: 80%;
         line-height: 0.2rem;
     }
 
