@@ -14,7 +14,7 @@ body {
     Max-width: 1200px;
     min-width: 760px;
     margin: 0 auto;
-    padding: 0 px;
+    
 }
 
 /* mobile first approach */
@@ -270,7 +270,6 @@ a:active {
 
 .service {
     max-width: 1200px;
-    display: relative;
     padding-top: 250px;
 
 }
@@ -575,8 +574,10 @@ footer {
     nav .search-icon {
         top: 8%;
         float: right;
-        position: sticky;
+        position: absolute;
         padding-right: 40px;
+        
+        
     }
 
     nav .search-icon input {
@@ -642,7 +643,7 @@ footer {
     /* Reducing font size to appropriate with desktop size  */
     #services {
         padding-top: 10px;
-        padding-left: 60px;
+        padding-left: 40px;
     }
 
     /* Adjust font size of Heading 2 and paragraph of oue services */
@@ -666,13 +667,12 @@ footer {
 
     /* Using Grid Area property to set up the grid layout contain 6 columns and three rows */
     .service {
-        padding-bottom: 30px;
-        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-left: 8px;
+        padding-right: 25px;
         display: grid;
-        grid-template-columns: repeat (6, 1fr);
-        grid-template-rows: 3;
-        grid-auto-columns: 15%;
-        gap: 8px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 3px;
         grid-template-areas:
             "service service service service service service"
             "digi digi digi mk mk mk"
@@ -708,14 +708,14 @@ footer {
     /* Adjusted image size all of our service */
     #mk,
     #dgtrans {
-        width: 490px;
+        width: 497px;
         height: auto;
     }
 
     #vdo,
     #web,
     #print {
-        width: 315px;
+        width: 312px;
         height: auto;
 
     }
@@ -723,13 +723,13 @@ footer {
     /* Adjusted sizing box of all section  */
     .digital,
     .marketing {
-        width: 490px;
+        width: 497px;
     }
 
     .video,
     .web,
     .print {
-        width: 315px;
+        width: 312px;
 
     }
 
@@ -880,7 +880,6 @@ footer {
         margin: 0 auto;
         width: 1020px;
         font-size: 100%;
-        width: 50% 50%;
     }
 
 
