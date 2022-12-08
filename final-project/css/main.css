@@ -95,7 +95,7 @@ nav .search-icon input {
     border: none;
     outline: none;
     padding: 0 10px;
-    color: #000;
+    color: #222;
     font-size: 80%;
     border-radius: 2px 0 0 2px;
 }
@@ -105,36 +105,36 @@ nav .search-icon .icon {
     padding: 7.5px;
     text-align: center;
     background: transparent;
-    border: 1px solid #C78B07;
+    border: 1px solid #C78B06;
     cursor: pointer;
 }
 
 nav .search-icon .icon:hover {
-    background: #C78B07;
+    background: #C78B06;
 }
 
 /* Changed colour of Icon search and colour of hover  */
 nav .search-icon .icon span {
-    color: #C78B07;
+    color: #C78B06;
     font-size: 20px;
 }
 
 nav .search-icon .icon span:hover {
-    color: #222222;
+    color: #222;
 }
 
 /* .nav form  */
 a:link,
 a:visited {
-    color: #C78B07;
+    color: #C78B06;
     text-decoration: none;
-    background-color: #222222;
+    background-color: #222;
 }
 
 a:hover,
 a:active {
-    color: black;
-    background-color: #C78B07;
+    color: #222;
+    background-color: #C78B06;
     width: 40px;
     margin: auto;
 }
@@ -181,8 +181,8 @@ a:active {
 }
 
 #home .header-text button {
-    background-color: #C78B07;
-    color: black;
+    background-color: #C78B06;
+    color: #222;
     width: 220px;
     height: 70px;
     font-size: 100%;
@@ -190,7 +190,7 @@ a:active {
 }
 
 #home .header-text button .fa {
-    color: black;
+    color: #222;
     font-size: 150%;
 }
 
@@ -234,19 +234,19 @@ a:active {
 
     padding: 15px;
     font-size: 280%;
-    color: #000;
+    color: #222;
 }
 
 .bg-ourservices .service h3 {
     font-size: 180%;
-    color: #000;
+    color: #222;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .bg-ourservices .service p {
     font-size: 90%;
-    color: #000;
+    color: #222;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -363,26 +363,26 @@ a:active {
 /* Design font size and line-height of h2, h3, h4 amd p of our team*/
 .bg-team h2 {
     font-size: 280%;
-    color: #000;
+    color: #222;
 }
 
 .bg-team h3 {
     font-size: 180%;
-    color: #000;
+    color: #222;
     line-height: 0.5rem;
     padding-left: 10px;
 }
 
 .bg-team h4 {
     font-size: 120%;
-    color: #000;
+    color: #222;
     line-height: 0.5rem;
     padding-left: 10px;
 }
 
 .bg-team p {
     font-size: 90%;
-    color: #000;
+    color: #222;
     line-height: 1.2rem;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -443,12 +443,12 @@ hr {
 /* Changing font-size and color */
 .bg-contact h2 {
     font-size: 280%;
-    color: #000;
+    color: #222;
 }
 
 .bg-contact h3 {
     font-size: 200%;
-    color: #000;
+    color: #222;
     line-height: 0.5rem;
     padding-bottom: 10px;
     padding-left: 5px;
@@ -456,7 +456,7 @@ hr {
 
 .bg-contact p {
     font-size: 90%;
-    color: #000;
+    color: #222;
     line-height: 0.5rem;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -482,8 +482,8 @@ hr {
 
 /* Adding color-bg and font, font-size for button */
 .container-contact1 form .button input {
-    background-color: #000;
-    color: #C78B07;
+    background-color: #222;
+    color: #C78B06;
     width: 80px;
     font-size: 150%;
 }
@@ -524,7 +524,7 @@ footer {
 
 .bg-footer p {
     text-align: left;
-    color: #C78B07;
+    color: #C78B06;
     padding: 1%;
     font-size: 90%;
     transform: translate(5%);
