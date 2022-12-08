@@ -572,7 +572,7 @@ footer {
 
     /* search bar is on right of nav */
     nav .search-icon {
-        top: 8%;
+        top: 10%;
         float: right;
         position: absolute;
         padding-right: 40px;
